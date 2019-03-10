@@ -1,13 +1,13 @@
 package BubbleSort;
 
-import com.company.ArrayBub;
+import BubbleSort.ArrayBub;
 
 public class ArrayBubStarter {
 
     public static void main(String[] args) {
 
 
-        com.company.ArrayBub arr2 = new com.company.ArrayBub(100);
+        BubbleSort.ArrayBub arr2 = new BubbleSort.ArrayBub(100);
 
         arr2.insert(100);
         arr2.insert(174);
@@ -27,7 +27,7 @@ public class ArrayBubStarter {
         arr2.display();
         System.out.print("Execution time: "+(stopTime-startTime)+"\n\n");
 
-        com.company.ArrayBub arr3 = new com.company.ArrayBub(5000);
+        BubbleSort.ArrayBub arr3 = new BubbleSort.ArrayBub(5000);
         arr3.createArrayRandom(5000);
         arr3.display();
 
@@ -40,7 +40,7 @@ public class ArrayBubStarter {
         arr3.display();
         System.out.print("Execution time: "+(stopTime2-startTime2)+"\n\n");
 
-        com.company.ArrayBub arrOpti = new ArrayBub(5000);
+        BubbleSort.ArrayBub arrOpti = new ArrayBub(5000);
         arrOpti.createArrayRandom(5000);
         arrOpti.display();
 
