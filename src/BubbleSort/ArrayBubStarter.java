@@ -3,11 +3,13 @@ package BubbleSort;
 import BubbleSort.ArrayBub;
 
 public class ArrayBubStarter {
+    //22
 
     public static void main(String[] args) {
 
 
         BubbleSort.ArrayBub arr2 = new BubbleSort.ArrayBub(100);
+
 
         arr2.insert(100);
         arr2.insert(174);
