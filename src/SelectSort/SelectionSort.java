@@ -30,8 +30,38 @@ public class SelectionSort {
         a[two]=temp;
     }
 
-    public void selectSort(){
+    public void selectionSort(){
+        int out;
+        int in;
+        int min;
+        for (out=0;out<nElems;out++){
+            min=out;
+            for (in=out+1;in<nElems;in++){
+                if(a[in]<a[min]){
+                    min=in;
+                    swap(out,min);
+                }
+            }
+        }
+    }
 
+    public void bubbleSortOptimal (){
+        int in;
+        int out=nElems;
+        boolean isSwapped=false;
+        for (out=nElems-1;out >1;out--){
+            for (in=0; in<out;in++){
+                if (a[in]>a[in+1]){
+                    long temp = a[in];
+                    a[in] = a[in+1];
+                    a[in+1] = temp;
+                    isSwapped=true;
+                }
+                if (isSwapped=false){
+                    break;
+                }
+            }
+        }
     }
 
     public void createArrayRandom(int maxSize){
