@@ -1,5 +1,3 @@
-package BubbleSort;
-
 import SelectSort.SelectionSort;
 
 import java.util.Arrays;
@@ -63,5 +61,25 @@ public class Main {
         long stopTimeSelectSort = System.nanoTime();
         System.out.println(Arrays.toString(data));
         System.out.print("Execution time: "+ TimeUnit.NANOSECONDS.toSeconds((stopTimeSelectSort-startTimeSelectSort)) +"\n\n");
+
+        //Insertion sort
+        System.out.println("InsertionSort");
+        long startTimeInsertSort = System.nanoTime();
+
+        for (int k=1;k<data.length;k++){
+            int key = data[k];
+            int m = k-1;
+            while (m>0&& key<data[m]){
+                int temp2 = data[m];
+                data[m]=data[m+1];
+                data[m+1]=temp;
+                m--;
+            }
+        }
+
+        long stopTimeInsertSort = System.nanoTime();
+        System.out.println(Arrays.toString(data));
+        System.out.print("Execution time: "+ TimeUnit.NANOSECONDS.toSeconds((stopTimeInsertSort-startTimeInsertSort)) +"\n\n");
+
     }
 }
