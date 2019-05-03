@@ -9,15 +9,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //TODO - Array generator
-
         Random rd = new Random(); // creating Random object
-        int[] data = new int[100000];
+        int[] data = new int[10000];
         for (int i = 0; i < data.length; i++) {
             data[i] = rd.nextInt(); // storing random integers in an array
             //System.out.println(data[i]); // printing each array element
         }
-
         // int [] data = {5, 3, 2, 7, 23, 12, 11, 1};
         //int [] data = {342342,123,123, 122,12,1,5,7,3};
 
