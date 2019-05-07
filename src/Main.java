@@ -1,5 +1,3 @@
-import SelectSort.SelectionSort;
-
 import java.util.Arrays;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -10,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         Random rd = new Random(); // creating Random object
-        int[] data = new int[10000];
+        int[] data = new int[100000];
         for (int i = 0; i < data.length; i++) {
             data[i] = rd.nextInt(); // storing random integers in an array
             //System.out.println(data[i]); // printing each array element
