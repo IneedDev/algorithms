@@ -10,7 +10,8 @@ public class Main {
     public static void main(String[] args) {
 
         Random rd = new Random(); // creating Random object
-        int[] data = new int[10000];
+        int[] data = new int[1000];
+
         for (int i = 0; i < data.length; i++) {
             data[i] = rd.nextInt(); // storing random integers in an array
             //System.out.println(data[i]); // printing each array element
