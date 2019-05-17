@@ -19,8 +19,6 @@ public class Main {
 
         main.quickSort(data,0,data.length-1);
         System.out.println(Arrays.toString(data));
-
-
     }
 
     public void quickSort(int data[], int begin, int end){
