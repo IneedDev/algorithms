@@ -4,6 +4,7 @@ public class SingletonSimpleEager {
 
     private static final SingletonSimpleEager instance = new SingletonSimpleEager();
 
+    //prvate constructor
     private SingletonSimpleEager() {
     }
 
