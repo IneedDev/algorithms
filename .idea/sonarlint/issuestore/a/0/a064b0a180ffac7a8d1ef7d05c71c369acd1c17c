@@ -1,0 +1,29 @@
+
+T
+squid:S106@"9Replace this use of System.out or System.err by a logger.(€Ð±¥üÿÿÿÿ
+T
+squid:S106<"9Replace this use of System.out or System.err by a logger.(Æ·¹àüÿÿÿÿ
+O
+squid:S106="9Replace this use of System.out or System.err by a logger.(þáŽ
+;squid:S1659+"Declare "j" on a separate line.(–§Ð¤úÿÿÿÿ
+>squid:S1659+""Declare "minV" on a separate line.(–§Ð¤úÿÿÿÿ
+T
+squid:S106$"9Replace this use of System.out or System.err by a logger.(Æ·¹àüÿÿÿÿ
+T
+squid:S106O"9Replace this use of System.out or System.err by a logger.(Æ·¹àüÿÿÿÿ
+O
+squid:S106("9Replace this use of System.out or System.err by a logger.(öæ©¡
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÍÚª¡ûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä¡Èûÿÿÿÿ
+>squid:S1659+""Declare "temp" on a separate line.(–§Ð¤úÿÿÿÿ
+Usquid:S1854G"9Remove this useless assignment to local variable "temp2".(Çò¦úÿÿÿÿ
+msquid:S1192%"QDefine a constant instead of duplicating this literal "Execution time: " 3 times.(ôˆ¡°øÿÿÿÿ
+T
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ôˆ¡°øÿÿÿÿ
+Fsquid:S1481G"*Remove this unused "temp2" local variable.(Çò¦úÿÿÿÿ
+O
+squid:S106P"9Replace this use of System.out or System.err by a logger.(­œûž
+isquid:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘
+>squid:S1659+""Declare "minI" on a separate line.(–§Ð¤úÿÿÿÿ
